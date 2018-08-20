@@ -1,0 +1,67 @@
+/*
+* @Author: Trungnn
+* @Date:   2018-08-20 14:48:48
+* @Last Modified by:   Trungnn
+* @Last Modified time: 2018-08-20 16:24:40
+*/
+* {
+	padding: 0; 
+	margin: 0;
+}
+body {
+	font-size: 14px; 
+	color: #333;
+	background-image: url("../image/background.png");
+}
+.calculator {
+	width: 260px; 
+	height: auto; 
+	margin: 150px auto; 
+	padding: 10px; 
+	border: 1px solid #666; 
+	border-radius: 4px;
+	background-color:orange;
+}
+.box-calculation {
+	width: 94%; 
+	background-color: #f7f8f9; 
+	border: 1px solid #666; 
+	padding: 5px 7px; 
+	font-size: 20px; 
+	border-bottom: none;
+}
+.box-result {
+	width: 94%; 
+	background-color: #f9f9f9; 
+	border: 1px solid #666; 
+	padding: 5px 7px; 
+	font-size: 20px; 
+	border-top: none; 
+	text-align: right;
+}
+.box-button button {
+	width: 32.4%; 
+	height: 40px; 
+	margin-top: 5px; 
+	font-size: 20px; 
+	color: #fff; 
+	border: none; 
+	cursor: pointer; 
+	border-radius: 4px;
+}
+button.number {
+	color:black
+}
+button.operation {
+	background-color: #5cb85c;
+}
+button.refresh,button.del {
+	background-color: #990000;
+}
+button.dot, button.equal {
+	color:black;
+}
+p{
+	text-align: center;
+	font-weight:bold;
+}
